@@ -1,0 +1,152 @@
+body{
+    color:maroon;
+    background-color:rgb(228, 226, 220);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo{
+    font-size: 34px;
+    font-style:initial;
+    font-family:sans-serif;
+    text-align: center;
+}
+.barra_superior {
+    background-color: black;
+    height:70px ;
+    
+     
+}
+
+.barra_superior p{
+    font-size: 20px;
+    text-decoration: dotted;
+    padding: 0px 50px;
+    color: aliceblue;
+}
+
+.foto{
+    background-image: url("240_F_509023046_LC94SEMldkmvO7aeSnP0knh4RwO2Gzyv.jpg");
+    text-align:left;
+    background-size:cover;
+    height: 500px;
+    background-repeat: no-repeat;
+
+}
+
+.sobre_mim{
+    padding:opx 50px;
+    text-align: center;
+}
+.apresenta{
+    text-align:justify;
+    font-size: 30px;
+    font-style: italic;
+    padding-top: 90px;
+    margin-right: 10%;
+    padding-left: 20px;
+    font-family:cursive;
+ 
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    padding: 20px 10px 20px 10px;
+    text-align: justify;
+}
+.container_form{
+    text-align: center;
+    padding: 20px 40px;
+}
+
+
+.texto.sobre{
+    float:left;
+    padding: 0px  10px;
+    
+}
+.imagemperfil img{
+    border-radius: 50px;
+    border: 5px solid darksalmon;
+    float: left;
+}
+
+
+h1{
+    font-size:large;
+}
+h2{
+    font-size:large;
+    color: #0dcaf0;
+    margin-top: 20px;
+}
+h3{
+    color:rgb(201, 89, 89);
+    font-weight:none;
+    font-family:Arial;
+}
+
+ul{
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 20px;
+}
+
+a{
+    color: rgb(189, 79, 79);
+    text-decoration: none;
+}
+
+a:hover{
+    color:white;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    background-position: inherit;
+    text-align: center;
+    height: 70px;
+    padding: 20px;
+
+}
+
+footer a{
+    margin:10px;
+}
+footer img {
+    width: 30px;
+    height:30px; 
+    padding: 0px 50 px ;
+}
+   
+textarea{
+    width: 500px;
+    height: 100px;
+    position: center;
+}
+input{
+    width:500px;
+    height: auto;
+    position: center;
+}
+.textoDelas p, .site_otica p, .cardapio p{
+    text-align: justify;
+    padding: 20px 30px 20px 30px;
+
+}
+.textoDelas, .site_otica, .cardapio{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+
+
+
+
+
+
+
